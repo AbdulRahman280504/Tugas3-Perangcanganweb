@@ -1,0 +1,88 @@
+.container{
+    width: 1020px;
+    background: whitesmoke;
+    border: 2px solid black;
+    overflow: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    text-align: left;
+    float: left;
+    background-color: #2e3cff;
+    width: 1020px;
+    height: 90px;
+    line-height: 85px;
+    color: white;
+    padding-left: 20px;
+}
+
+
+.maincontent{
+    text-align: left;
+    float: left;
+    background-color: #6cc444;
+    width: 1020px;
+    height: 200px;
+    margin-top: 5px;
+    line-height: 200px;
+    color: white;
+    padding-left: 20px;
+}
+
+.sidebar{
+    background-color: #c517ce;
+    color: white;
+    width: 1020px;
+    height: 200px;
+    text-align: left;
+    float: left;
+    margin-top: 5px;
+    line-height: 200px;
+    padding-left: 20px;
+}
+
+.twin1{
+    text-align: left;
+    float: left;
+    background: orangered;
+    width: 1020px;
+    height: 160px;
+    margin-top: 5px;
+    line-height: 163px;
+    color: white;
+    padding-left: 20px;
+}
+
+.twin2{
+    text-align: left;
+    float: left;
+    background: orangered;
+    width: 1020px;
+    height: 160px;
+    margin-top: 5px;
+    line-height: 163px;
+    color: white;
+    padding-left: 20px;
+}
+
+.footer{
+    text-align: left;
+    float: left;
+    background: rgb(0,0,97);
+    width: 1020px;
+    height: 70px;
+    margin-top: 5px;
+    line-height: 65px;
+    padding-left: 20px;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .container{
+        width: 100%;
+        float: none !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
